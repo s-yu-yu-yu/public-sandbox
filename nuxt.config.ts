@@ -10,25 +10,25 @@ export default defineNuxtConfig({
         {
           charset: "utf-8",
         },
-        { name: "twitter:card", content: "player" },
+        { property: "twitter:card", content: "player" },
         {
-          name: "twitter:player",
+          property: "twitter:player",
           content: "https://public-sandbox.vercel.app/",
         },
         {
-          name: "twitter:player:width",
+          property: "twitter:player:width",
           content: "480",
         },
         {
-          name: "twitter:player:height",
+          property: "twitter:player:height",
           content: "480",
         },
         {
-          name: "twitter:image",
+          property: "twitter:image",
           content: "https://public-sandbox.vercel.app/avatar-ogp.png",
         },
         {
-          name: "og:image",
+          property: "og:image",
           content: "https://public-sandbox.vercel.app/avatar-ogp.png",
         },
       ],

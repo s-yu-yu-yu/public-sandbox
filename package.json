@@ -11,11 +11,14 @@
     "deploy": "nuxt generate && gh-pages -d dist"
   },
   "dependencies": {
+    "@pixiv/three-vrm": "^2.1.1",
     "nuxt": "^3.11.2",
+    "three": "^0.163.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@types/three": "^0.163.0",
     "gh-pages": "^6.1.1"
   }
 }

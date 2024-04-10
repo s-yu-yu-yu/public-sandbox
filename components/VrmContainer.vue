@@ -5,6 +5,7 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { VRMLoaderPlugin } from "@pixiv/three-vrm";
 
 const canvas = ref<HTMLDivElement | null>(null);
+const isLoading = ref<boolean>(true);
 
 onMounted(() => {
   if (!canvas.value) return;
@@ -43,6 +44,8 @@ onMounted(() => {
   loader.load(
     "/MyAvatar.vrm",
     (gltf) => {
+      isLoading.value = false;
+
       // retrieve a VRM instance from gltf
       const vrm = gltf.userData.vrm;
 
@@ -75,12 +78,42 @@ onMounted(() => {
 </script>
 
 <template>
-  <div ref="canvas" class="canvas" />
+  <div class="container">
+    <div ref="canvas" class="canvas" />
+    <img
+      v-if="isLoading"
+      src="/loading.png"
+      width="128"
+      height="128"
+      class="icon"
+    />
+  </div>
 </template>
 
 <style scoped>
+.container {
+  position: relative;
+}
+
 .canvas {
   width: 100vw;
   height: 100vh;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 </style>

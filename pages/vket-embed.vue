@@ -4,7 +4,15 @@ useHead({
   meta: [
     {
       name: "description",
+      content: "VketCloud埋め込むやつ",
+    },
+    {
+      property: "og:title",
       content: "Vket Embed",
+    },
+    {
+      property: "og:description",
+      content: "VketCloud埋め込むやつ",
     },
     {
       property: "twitter:player",
@@ -13,11 +21,11 @@ useHead({
     },
     {
       property: "twitter:player:width",
-      content: "640",
+      content: "1080",
     },
     {
       property: "twitter:player:height",
-      content: "480",
+      content: "720",
     },
   ],
 });

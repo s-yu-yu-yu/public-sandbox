@@ -10,6 +10,30 @@ export default defineNuxtConfig({
         {
           charset: "utf-8",
         },
+        {
+          name: 'description',
+          content: 'VRMをTwitterに埋め込むやつ'
+        },
+        {
+          property: 'og:title',
+          content: 'VRM Embed'
+        },
+        {
+          property: 'og:description',
+          content: 'VRMをTwitterに埋め込むやつ'
+        },
+        {
+          property: 'twitter:title',
+          content: 'VRM Embed'
+        },
+        {
+          property: 'twitter:description',
+          content: 'VRMをTwitterに埋め込むやつ'
+        },
+        {
+          property: 'twitter:text:title',
+          content: 'VRM Embed'
+        }
         { property: "twitter:card", content: "player" },
         {
           property: "twitter:player",

@@ -33,11 +33,13 @@ useHead({
     },
     {
       property: "og:video:url",
-      content: "https://www.youtube.com/embed/4MfSzUK9Ay4?start=1",
+      content:
+        "https://myvketofficial.cloud.vket.com/worlds/24Summer_iframe/main.html?worldid=24Summer_iframe",
     },
     {
       property: "og:video:secure_url",
-      content: "https://www.youtube.com/embed/4MfSzUK9Ay4?start=1",
+      content:
+        "https://myvketofficial.cloud.vket.com/worlds/24Summer_iframe/main.html?worldid=24Summer_iframe",
     },
     {
       property: "og:video:type",

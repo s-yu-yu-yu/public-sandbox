@@ -27,6 +27,28 @@ useHead({
       property: "twitter:player:height",
       content: "720",
     },
+    {
+      property: "og:video:url",
+      content:
+        "https://myvketofficial.cloud.vket.com/worlds/24Summer_iframe/main.html?worldid=24Summer_iframe",
+    },
+    {
+      property: "og:video:secure_url",
+      content:
+        "https://myvketofficial.cloud.vket.com/worlds/24Summer_iframe/main.html?worldid=24Summer_iframe",
+    },
+    {
+      property: "og:video:type",
+      content: "text/html",
+    },
+    {
+      property: "og:video:width",
+      content: "1280",
+    },
+    {
+      property: "og:video:height",
+      content: "720",
+    },
   ],
 });
 </script>

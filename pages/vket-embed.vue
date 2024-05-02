@@ -28,6 +28,10 @@ useHead({
       content: "720",
     },
     {
+      property: "og:type",
+      content: "video.other",
+    },
+    {
       property: "og:video:url",
       content:
         "https://myvketofficial.cloud.vket.com/worlds/24Summer_iframe/main.html?worldid=24Summer_iframe",

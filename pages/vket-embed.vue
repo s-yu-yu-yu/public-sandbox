@@ -15,6 +15,10 @@ useHead({
       content: "VketCloud埋め込むやつ",
     },
     {
+      property: "og:image",
+      content: "https://hikkyofficial.cloud.vket.com/worlds/entrance/ogp/img.jpg",
+    },
+    {
       property: "twitter:player",
       content:
         "https://hikkyofficial.cloud.vket.com/worlds/entrance/main.html?worldid=entrance",

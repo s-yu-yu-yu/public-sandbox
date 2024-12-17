@@ -17,7 +17,7 @@ useHead({
     {
       property: "twitter:player",
       content:
-        "https://myvketofficial.cloud.vket.com/worlds/24Summer_iframe/main.html?worldid=24Summer_iframe",
+        "https://hikkyofficial.cloud.vket.com/worlds/entrance/main.html?worldid=entrance",
     },
     {
       property: "twitter:player:width",
@@ -34,12 +34,12 @@ useHead({
     {
       property: "og:video:url",
       content:
-        "https://myvketofficial.cloud.vket.com/worlds/24Summer_iframe/main.html?worldid=24Summer_iframe",
+        "https://hikkyofficial.cloud.vket.com/worlds/entrance/main.html?worldid=entrance",
     },
     {
       property: "og:video:secure_url",
       content:
-        "https://myvketofficial.cloud.vket.com/worlds/24Summer_iframe/main.html?worldid=24Summer_iframe",
+        "https://hikkyofficial.cloud.vket.com/worlds/entrance/main.html?worldid=entrance",
     },
     {
       property: "og:video:type",
@@ -60,7 +60,7 @@ useHead({
 <template>
   <div>
     <iframe
-      src="https://myvketofficial.cloud.vket.com/worlds/24Summer_iframe/main.html?worldid=24Summer_iframe"
+      src="https://hikkyofficial.cloud.vket.com/worlds/entrance/main.html?worldid=entrance"
       width="100%"
       height="100%"
       frameborder="0"

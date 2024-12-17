@@ -12,27 +12,27 @@ export default defineNuxtConfig({
         },
         {
           name: "description",
-          content: "VRMをTwitterに埋め込むやつ",
+          content: "VketCloudをTwitterに埋め込むやつ",
         },
         {
           property: "og:title",
-          content: "VRM Embed",
+          content: "VketCloud Embed",
         },
         {
           property: "og:description",
-          content: "VRMをTwitterに埋め込むやつ",
+          content: "VketCloudをTwitterに埋め込むやつ",
         },
         {
           property: "twitter:title",
-          content: "VRM Embed",
+          content: "VketCloud Embed",
         },
         {
           property: "twitter:description",
-          content: "VRMをTwitterに埋め込むやつ",
+          content: "VketCloudをTwitterに埋め込むやつ",
         },
         {
           property: "twitter:text:title",
-          content: "VRM Embed",
+          content: "VketCloud Embed",
         },
         { property: "twitter:card", content: "player" },
         {
